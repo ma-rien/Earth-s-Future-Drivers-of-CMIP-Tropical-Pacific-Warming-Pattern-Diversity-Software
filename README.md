@@ -4,8 +4,9 @@ Overview
 This repository contains the Python scripts and data necessary to reproduce all figures presented in Earth's Future "Drivers of CMIP Tropical Pacific Warming Pattern Diversity". The analysis is divided into two main parts: future climate changes (Figures 1-8) and historical changes (Figures 9-12) plus the figures presented in the Supplementary Information.
 
 Environment Setup
-All figures were generated using Python. The complete list of required Python packages and their specific versions is provided in the environment.yml file. This file can be used to recreate the conda environment used in this study.
+All figures were generated using Python. The complete list of required Python packages and their specific versions is provided in the environment.yml file. This file can be used to recreate the conda environment used for the analysis and visualization components of this study.
 
+Data preprocessing was performed using Climate Data Operators (CDO). The specific CDO version and dependencies used are documented in the cdo_environment.yml file. Both environment files are provided to ensure complete reproducibility of the workflow from raw data processing to final figure generation.
 Data Preprocessing
 Input data consists of NetCDF (.nc) files obtained from:
 
